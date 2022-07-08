@@ -1,6 +1,5 @@
-print("*****")
-print(" ****")
-print("  ***")
-print("   **")
-print("    *")
+N = s
+for i in range(N, 0, -1):
+    print(" "*(N-i)+ "*"*i)
+
 
